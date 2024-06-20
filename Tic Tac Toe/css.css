@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+}
+body{
+    background-image: url(background.jpg);
+    height: 1vh;
+}
+button{
+    width: 100px;
+    height: 100px;
+}
+.b1{
+    background: url('1') no-repeat center ;
+        background-size: cover;
+        cursor: pointer;
+
+}
+button:hover{
+    border-color: gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
+      
+}
+.b2{
+    background: url('2') no-repeat center ;
+        background-size: cover;
+        cursor: pointer;
+
+}
+.b3{
+    background: url('3') no-repeat center ;
+        background-size: cover;
+        cursor: pointer;
+
+}
+.b4{
+    background: url('4') no-repeat center ;
+        background-size: cover;
+        cursor: pointer;
+
+}
+.b5{
+    background: url('5') no-repeat center ;
+        background-size: cover;
+        cursor: pointer;
+
+}
+.b6{
+    background: url('6') no-repeat center ;
+        background-size: cover;
+        cursor: pointer;
+
+}
+.b7{
+    background: url('7') no-repeat center ;
+        background-size: cover;
+        cursor: pointer;
+
+}
+.b8{
+    background: url('8') no-repeat center ;
+        background-size: cover;
+        cursor: pointer;
+
+}
+.b9{
+    background: url('9') no-repeat center ;
+        background-size: cover;
+        cursor: pointer;
+
+}
